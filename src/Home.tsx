@@ -3,6 +3,8 @@ import FontSize from "./components/FontSize";
 import Input from "./components/Input";
 import TextCounter from "./components/TextCounter";
 import TodoList from "./components/TodoList";
+import User from "./components/User";
+import UserView from "./components/UserView";
 import { fontSizeState } from "./store/atoms/fontSize";
 
 import { textState } from './store/atoms/text';
@@ -30,6 +32,15 @@ const Home = () => {
       <h1>Todos</h1>
 
       <TodoList />
+
+      <hr />
+
+      <h1>ASYNC QUERIES</h1>
+
+      <User />
+
+      <UserView />
+
 
     </>
 
